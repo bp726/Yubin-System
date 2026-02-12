@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- 住所検索システム -->
+    <h1>住所検索システム</h1>
+    <!-- 郵便番号入力 -->
+    <div class="search-box">
+      <input id="zipcode" type="text" placeholder="郵便番号を入力" />
+      <button id="searchBtn">検索</button>
+    </div>
+
+    <!-- 検索結果 -->
+    <h2>検索結果</h2>
+    <!-- 都道府県 -->
+    <p id="pref">都道府県：</p>
+    <!-- 市区町村 -->
+    <p id="city">市区町村：</p>
+    <!-- 町域（あれば） -->
+    <p id="town">町域：</p>
+
+    <!-- 検索履歴 -->
+    <h3>検索履歴</h3>
+    <ul id="historyList"></ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>

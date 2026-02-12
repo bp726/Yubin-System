@@ -1,0 +1,16 @@
+/* ページ全体 */
+body {
+  font-family: sans-serif;
+  background-color: rgb(163, 161, 142);
+}
+
+/* 検索ボックス */
+.search-box {
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+#historyList li {
+  coler: red;
+}
